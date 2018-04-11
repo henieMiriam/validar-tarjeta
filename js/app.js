@@ -32,9 +32,9 @@ function isValidCard(isValidCard){
      }
 
      if(sum%10===0){
-         msg=alert("Tarjeta no válida");
-     }else{
          msg=alert("Tarjeta válida");
+     }else{
+         msg=alert("Tarjeta no válida");
      }
 
 

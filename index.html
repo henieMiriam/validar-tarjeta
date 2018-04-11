@@ -2,9 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ALGORITMO DE LUHN</title>
   </head>
+
   <body>
+    <h1>VERIFICACION DE TARJETAS</h1>
+    <h2>UN POCO DE HISTORIA</h2>
+    <p>Con el fin de validar posibles errores a la hora de la transcripción de una secuencia de números (cambiar un número por otro o identificar posibles intercambios de dígitos), el ingeniero informático Hans Peter Luhn, que trabajaba para IBM,  diseñó en 1954 un algoritmo basado en el principio del módulo aritmético (suma matemática mod-10) que permitía la identificación de posibles errores durante la digitación o transmisión de una una cantidad considerable de números entre una fuente y otra (por ejemplo, durante la digitación de un número de tarjeta por una persona en un formulario web o en su escritura en un papel). Su algoritmo se conoce como “algoritmo o fórmula de Luhn” o “algoritmo de módulo 10”.</p>
+<P>Obviamente, una de las aplicaciones principales de este algoritmo se encuentra en la identificación de errores de digitación del PAN de las tarjetas de pago (definido en el estándar ISO/IEC 7812-1:2006 Identification cards — Identification of issuers — Part 1: Numbering system).
+
+A pesar de su facilidad de implementación, el algoritmo no ofrece confiabilidad total en el caso de intercambio de dos cifras contiguas (por ejemplo 12 con 21), razón por la cual la fórmula ha sido optimizada en algoritmos más recientes como es el caso del algoritmo de Verhoeff y el algoritmo de Damm.</P>
   <script src="js/app.js"></script>
   </body>
 </html>

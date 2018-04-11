@@ -17,7 +17,7 @@ Para generar el dígito de verificación empleando el algoritmo de Luhn se deben
 #### Pseudocodigo
 1. Mediante un prompt solicitar al usuario introdusir su numero de trajeta oara verificarla.
 2. Validar que se alla ingresado un dato (que no sea una cadena o dato vacio )y que el dato ingesado sea numerico y valido.
-3. almacemar en un arreglo el dato ingresado y mediante push y pop invertir el orden del arreglo .
+3. almacemar en un arreglo el dato ingresado y despues invertir el orden del arreglo para poder trabajar con el.
 4. identificar los digitos cuya posicion sea par y multiplicar dichos digitos por dos.
 5. Verificar el resultado de la multiplicacion de digitos y si alguno cuenta con mas de un digito sumarlos para obtener solo u digito de resultado.
 6. Hacer una suma con los resultados del paso anterior y los digitos en posicion no par del arreglo anterior.

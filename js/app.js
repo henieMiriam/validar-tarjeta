@@ -1,0 +1,1 @@
+var tarjeta = prompt ("hola!!!")
